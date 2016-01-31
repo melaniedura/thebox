@@ -1,0 +1,28 @@
+{
+  "name": "thebox",
+  "version": "0.0.0",
+  "homepage": "https://github.com/melaniedura/thebox",
+  "authors": [
+    "melaniedura"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "node",
+    "angular",
+    "express",
+    "mongo"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.9"
+  }
+}
