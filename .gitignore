@@ -1,0 +1,5 @@
+# BACKEND FILES
+node_modules/
+
+# FRONTEND FILES
+public/libs/
