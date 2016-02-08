@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/melaniedura/thebox",
   "dependencies": {
+    "body-parser": "^1.14.2",
     "express": "^4.13.4",
+    "kerberos": "0.0.18",
+    "method-override": "^2.3.5",
+    "mongodb": "^2.1.4",
     "mongoose": "^4.3.7"
   }
 }
