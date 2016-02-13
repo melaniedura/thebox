@@ -7,7 +7,6 @@ module.exports = function (app) {
     app.route('/api/user')
         .post(function (req, res, next) {
             UserCtrl.createUser(req.body, function (result) {
-                console.log("ye");
                 if (result) {
                     res.status(result.code).send(result);
                 } else {
@@ -15,7 +14,7 @@ module.exports = function (app) {
                 }
             });
         });
-
+        
     app.route('/api/country')
 		.get(function (req, res, next) {
 			CountryCtrl.getCountries(function (result) {
