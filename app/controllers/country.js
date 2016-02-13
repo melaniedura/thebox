@@ -17,10 +17,10 @@ exports.getCountries = function (callback) {
 	});
 };
 
-exports.createCountry = function (callback) {
+exports.createCountry = function (params, callback) {
 	var country = new Country();
-	country.name = 'Test';
-	country.code = 'TS';
+	country.name = params.name;
+	country.code = params.code;
 
 	country.save(function (err, res) {
 		var result = undefined;
